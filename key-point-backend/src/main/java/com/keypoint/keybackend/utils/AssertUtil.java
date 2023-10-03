@@ -14,14 +14,14 @@ import java.util.Map;
  * @author key point
  * @date 2023/10/01
  */
-public class AssertUtil {
+public final class AssertUtil {
 
     /**
      * @param expression
      * @date 2023/10/01
      */
     public static void isTrue(boolean expression, BusinessException businessException) {
-        if (!expression) {
+        if (expression) {
             throw businessException;
         }
     }

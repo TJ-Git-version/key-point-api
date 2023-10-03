@@ -19,7 +19,7 @@ import java.util.function.Supplier;
  */
 @Slf4j
 @Component
-public class RedissonLockUtil {
+public final class RedissonLockUtil {
 
     @Resource
     public RedissonClient redissonClient;

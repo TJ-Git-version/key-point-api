@@ -24,7 +24,7 @@ import static com.keypoint.keybackend.constant.EmailConstant.*;
  * @Description: 电子邮件生成内容实用程序
  */
 @Slf4j
-public class EmailUtil {
+public final class EmailUtil {
 
 
     /**
