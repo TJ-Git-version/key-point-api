@@ -6,7 +6,7 @@ spring:
   # DataSource Config todo 修改为自己的数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/qi_api
+    url: jdbc:mysql://localhost:3306/key_api
     username: root
     password: 123456
   mvc:
